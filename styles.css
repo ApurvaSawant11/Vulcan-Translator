@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
 :root{
     --vulcan-blue:#1D4ED8;
     --vulcan-black:black;
@@ -7,38 +9,55 @@
 body{
     color: white;
     margin: 0px;
-    background-image: url(/images/Vulcan-blue.jpg);
+    background: linear-gradient(to bottom right, rgb(49, 71, 85), rgb(38, 160, 218));
+    font-family: 'Playfair Display', serif;
 }
 
 header{
     background-color: var(--vulcan-black);
-    padding: 1rem;
+    padding: 0.5rem;
     text-align: center;
     border-bottom-left-radius: 1.5rem;
     border-bottom-right-radius: 1.5rem;
-    
 }
 
 .llp{
     text-align: center; 
-    font-size:25px;
+    font-size:30px;
+    color: black;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    font-size: 110%;
 }
 
 
 textarea{
+    display: block;
+    margin: auto;
     width: 40%;
     height: 20vh;
     padding: 1rem;
-    margin: 2rem;
+    border-radius: 1rem;
+    border-color: black;
+    border-width: 2px;
 }
 
 button{
-    padding: 0.5rem;
+    padding: 0.5rem 1rem;
     margin: 0.5rem;
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem ;
+    border-radius: 0.5rem;
 }
 
 footer{
     background-color: var(--vulcan-black);
+    margin-top: 1rem;
     text-align: center;
     padding: 1rem;
     border-top-left-radius: 1.5rem;
