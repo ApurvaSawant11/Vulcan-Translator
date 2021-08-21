@@ -79,3 +79,18 @@ footer{
     border-top-left-radius: 1.5rem;
     border-top-right-radius: 1.5rem;
 }
+
+ul{
+    padding: 1em;
+}
+
+  
+li {
+    display: inline;
+    padding: 0.5em;
+    list-style: none;
+}
+  
+i{
+    color: white;
+}
